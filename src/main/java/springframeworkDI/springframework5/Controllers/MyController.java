@@ -1,15 +1,20 @@
 package springframeworkDI.springframework5.Controllers;
 
 import org.springframework.stereotype.Controller;
+import springframeworkDI.springframework5.services.GreetingService;
 
 @Controller
 public class MyController {
 
+    private final GreetingService greetingService;
+
+    public MyController(GreetingService greetingService) {
+        this.greetingService = greetingService;
+    }
+
     public String sayHello() {
-
-        System.out.println("Hello World!! ");
-
-        return "Hi Folks";
+        // when we don't use Qualifier the @Primary service is used.0
+        return greetingService.sayGreeting();
     }
 
 }
