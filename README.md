@@ -2,7 +2,7 @@
 This repository entails lessons progressing knowledge on Spring Framework
 
 
-#This repository 
+# This repository 
 
 This repository contains the following sections : 
 - Section 2 ( analysing the context ) 
