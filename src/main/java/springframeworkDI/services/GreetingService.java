@@ -1,4 +1,4 @@
-package springframeworkDI.springframework5.services;
+package springframeworkDI.services;
 
 
 public interface GreetingService {

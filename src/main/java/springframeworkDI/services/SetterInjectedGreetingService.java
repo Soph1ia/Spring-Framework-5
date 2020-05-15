@@ -1,4 +1,4 @@
-package springframeworkDI.springframework5.services;
+package springframeworkDI.services;
 
 import org.springframework.stereotype.Service;
 

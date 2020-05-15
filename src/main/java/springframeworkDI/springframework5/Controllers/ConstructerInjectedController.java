@@ -2,7 +2,7 @@ package springframeworkDI.springframework5.Controllers;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
-import springframeworkDI.springframework5.services.GreetingService;
+import springframeworkDI.services.GreetingService;
 
 @Controller
 public class ConstructerInjectedController {

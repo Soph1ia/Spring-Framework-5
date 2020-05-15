@@ -2,7 +2,7 @@ package springframeworkDI.springframework5.Controllers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import springframeworkDI.springframework5.services.ConstructorGreetingService;
+import springframeworkDI.services.ConstructorGreetingService;
 
 class SetterInjectedControllerTest {
     SetterInjectedController controller;
